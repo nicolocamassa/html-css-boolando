@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* DA RIMUOVERE SUCCESSIVAMENTE */
+.dashed-border{
+    border: dashed 2px black;
+}
+
+.menu-layout{
+    height: 60%;
+    background-color: red;
+}
+/* ____________________________ */
+
+
+.bg-header{
+    background-color: #FF6900;
+}
+
+/* COMUNI PER L'INTERA PAGINA */
+.container{
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* COLONNE */
+.col-nav{
+    width: 25%;
+}
+
+.col-logo{
+    width: 50%;
+}
+
+.col-details{
+    width: 25%;
+}
