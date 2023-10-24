@@ -51,6 +51,14 @@ body{
 .flexend-x{
     justify-content: flex-end;
 }
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
 /* ____________________________ */
 
 
@@ -147,6 +155,24 @@ body{
 
 .container-photo{
     position: relative;
+}
+
+.container-photo:hover .hidden{
+    display: block;
+}
+
+.container-photo:hover .show{
+    display: none;
+}
+
+.heart:hover{
+    color: red;
+}
+
+
+
+.heart:hover .show, .heart{
+    
 }
 
 .container-product-details{
