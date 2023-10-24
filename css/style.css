@@ -8,11 +8,6 @@ body{
     font-family: sans-serif;
 }
 
-/* CLASSI DA RIMUOVERE SUCCESSIVAMENTE */
-.height-ref{
-    background-color: red;
-    height: 100%;
-}
 /* ____________________________ */
 
 /* COMUNI PER L'INTERA PAGINA */
@@ -58,6 +53,21 @@ body{
 
 .show{
     display: block;
+}
+
+.color-white{
+    color: white;
+}
+
+.bigger-font{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fixed-menu{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 /* ____________________________ */
 
@@ -113,6 +123,7 @@ body{
 .commercial-detail{
     position: absolute;
     bottom: 30px;
+    color: white;
 }
 
 .discount{
@@ -137,11 +148,10 @@ body{
 
 .col-product{
     width: calc(100% / 3 - 20px);
-    margin-bottom: 80px;
 }
 
 .gap-column{
-    gap: 20px;
+    gap: 30px 20px;
 }
 
 .wrap{
@@ -150,7 +160,7 @@ body{
 
 /* Container [MAIN] */
 .padding-container{
-    padding-top: 70px;
+    padding: 150px 0;
 }
 
 .container-photo{
