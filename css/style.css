@@ -175,6 +175,7 @@ body{
     display: none;
 }
 
+/* BONUS */
 .heart:hover{
     color: red;
 }
