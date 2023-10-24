@@ -141,6 +141,19 @@ body{
     width: 100%;
 }
 
+.bold-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.actual-price{
+    color: red;
+}
+
+.discounted-price{
+    text-decoration: line-through;
+}
+
 /* Colonne [MAIN] */
 .col-details{
     width: 25%;
@@ -180,17 +193,6 @@ body{
     color: red;
 }
 
-
-
-.heart:hover .show, .heart{
-    
-}
-
-.container-product-details{
-
-}
-
-
 /* FOOTER */
 .bg-grey{
     background-color: #1A1A1A;
@@ -206,9 +208,6 @@ body{
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-}
-.col-policy{
-
 }
 
 .col-social{
