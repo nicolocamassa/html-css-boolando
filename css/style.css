@@ -13,17 +13,27 @@
     height: 60%;
     background-color: red;
 }
+
+.container-ref{
+    background: #2eed24;
+}
+
+.product-layout{
+    height: 550px;
+    background-color: rgb(64, 0, 255);
+}
 /* ____________________________ */
 
 
 .bg-header{
     background-color: #FF6900;
+    height: 100px;
 }
 
 /* COMUNI PER L'INTERA PAGINA */
 .container{
     max-width: 1200px;
-    height: 100px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -31,9 +41,13 @@
     width: 100%;
     height: 100%;
 
+    justify-content: center;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /* COLONNE */
@@ -47,4 +61,26 @@
 
 .col-details{
     width: 25%;
+}
+
+.col-product{
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 80px;
+}
+
+.gap-column{
+    gap: 20px;
+}
+
+.padding-container{
+    padding-top: 70px;
+}
+
+.container-photo{
+    height: 90%
+}
+
+.container-product-details{
+    background-color: red;
+    height: 13%;
 }
